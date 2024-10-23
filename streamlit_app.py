@@ -1,13 +1,16 @@
 import streamlit as st
 
-st.title("👋🏻 Streamlit 앱 만들기")
-st.subheader("이 페이지는 실습 페이지입니다.")
-st.write("오른쪽 위의 'fork' 버튼을 눌러주세요. 이 페이지와 앱이 그대로 복사됩니다.")
+st.title("👋🏻 나의 스트림릿 첫번째 앱 만들기")
+st.subheader("마장중학교 고윤희입니다.")
+st.info("중3 과학 페이지에 오신것을 환영합니다.")
+#교과서 링크
+st.link_button("비상교과서", "http://ebook.vivasam.com/v2/textbookviewer/viewer.jsp?contentId=/dvd/2015/20200225/M0SC0103_2018/data/ebook.pdf#")
 
-st.link_button("streamlit 매뉴얼 페이지 바로가기!", "https://surish.notion.site/streamlit-113eef51495c8083986cc65f2d07470c?pvs=73")
-
-# st.success("초록색 창")
-# st.error("빨간색 창")
+st.success("초록색 창")
+st.error("빨간색 창")
 st.info("파란색 창")
-# st.warning("노란색 창") # ctrl+/ : 주석처리
-st.image("https://media.giphy.com/media/8bE0EERrvXkq5S9BCa/giphy.gif?cid=ecf05e479tvvde0o3d3do3g67yoq0jn4zzyg9hyt63stuf0x&ep=v1_gifs_related&rid=giphy.gif&ct=g", caption="Welcome to coding world") 
+st.warning("노란색 창") # ctrl+/ : 주석처리
+
+st.image("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDZ3dXhyNG9mN2g5dXppNHl5bHl0NXVkdzd4c2RrNTk2eGFtN2JlYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/J39gurpvL7SHpnTTJB/giphy.gif")
+st.video("https://www.youtube.com/watch?v=ekr2nIex040&ab_channel=ROS%C3%89")
+st.video("/workspaces/myfirststreamlit/data/스크린샷 2024-10-22 150411.png")
