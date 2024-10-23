@@ -4,7 +4,7 @@ st.title("👋🏻 나의 스트림릿 첫번째 앱 만들기")
 st.subheader("마장중학교 고윤희입니다.")
 st.info("중3 과학 페이지에 오신것을 환영합니다.")
 #교과서 링크
-st.link_button("비상교과서", "http://ebook.vivasam.com/v2/textbookviewer/viewer.jsp?contentId=/dvd/2015/20200225/M0SC0103_2018/data/ebook.pdf#")
+st.link_button("비상 교과서", "http://ebook.vivasam.com/v2/textbookviewer/viewer.jsp?contentId=/dvd/2015/20200225/M0SC0103_2018/data/ebook.pdf#")
 
 st.success("초록색 창")
 st.error("빨간색 창")
